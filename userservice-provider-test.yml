@@ -1,0 +1,23 @@
+server:
+  port: 8661
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/frame
+    username: root
+    password: 3516
+  application:
+    name: userservice-provider
+mybatis:
+  type-aliases-package: com.jzfy.service.pojo
+
+
+
+#(作为Eureka客户端)将此服务提供方注册到Eureka注册中心
+
+
+      #,http://eureka2:10087/eureka/,http://eureka2:10088/eureka/
+
+
+
+
+
